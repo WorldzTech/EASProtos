@@ -1,7 +1,2 @@
-version: v1
-breaking:
-  use:
-    - FILE
-lint:
-  use:
-    - DEFAULT
+version: v2
+name: buf.build/WorldzTech/EASProtos
