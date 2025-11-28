@@ -1,2 +1,6 @@
-version: v2
-name: buf.build/WorldzTech/EASProtos
+# go-proto-definitions/buf.yaml
+version: v1
+name: github.com/WorldzTech/EASProtos # <--- Уникальное имя для Buf-модуля
+build:
+  dirs:
+    - proto

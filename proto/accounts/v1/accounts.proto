@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/WorldzTech/EASProtos";
+option go_package = "github.com/WorldzTech/EASProtos/proto/accounts/v1";
 
 package accounts.v1;
 
