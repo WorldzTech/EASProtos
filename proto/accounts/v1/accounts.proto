@@ -6,15 +6,15 @@ package accounts.v1;
 
 // service
 service AccountsService {
-    rpc GetBalance (GetBalanceRequest) returns (GetBalanceResponse);
+    rpc GetBalance (GetEEBalanceRequest) returns (GetEEBalanceResponse);
 }
 
 // messages
-message GetBalanceRequest {
+message GetEEBalanceRequest {
     int64 user_id = 1;
 }
 
-message GetBalanceResponse {
+message GetEEBalanceResponse {
     int64 user_id = 1;
     uint64 balance = 10;
 }
